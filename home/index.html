@@ -1,0 +1,120 @@
+<!doctype HTML>
+<html>
+    <head>
+        <style>
+ body{
+   margin: 0px;
+   padding: 0px;
+ }
+ 
+ #loader{
+  height: 1500px;
+  width: 1500px;
+  background-color:#000000;
+  position: fixed;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  z-index:999;
+  transition: all .3s;
+}    
+#loader img{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+} 
+
+<style>
+* {
+margin: 0px;
+padding: 0px;
+;
+}
+
+ul.animate {
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex
+}
+
+ul.animate li {
+list-style: none;
+width: 6px;
+height: 20px;
+margin: 0px 4px;
+animation: easy-in-out 0.7s infinite alternate;
+}
+
+@keyframes easy-in-out {
+0% {
+  transform: scaleY(1);
+}
+50% {
+  transform: scaleY(2);
+}
+100% {
+  transform: scaleY(3);
+}
+}
+
+ul.animate li:nth-child(1) {
+animation-delay: 0s;
+background: #E65335;
+}
+
+ul.animate li:nth-child(2) {
+animation-delay: .1s;
+background: #1A7E91;
+}
+
+ul.animate li:nth-child(3) {
+animation-delay: .2s;
+background: #E65335;
+}
+
+ul.animate li:nth-child(4) {
+animation-delay: .3s;
+background: #1A7E91;
+}
+
+ul.animate li:nth-child(5) {
+animation-delay: .4s;
+background: #E65335;
+}
+
+ul.animate li:nth-child(6) {
+animation-delay: .5s;
+background: #1A7E91;
+}
+</style>
+<div id="loader">
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+
+<div style="text-align: center; width: 100%">
+  <img style="display: inline-block; max-height: 200px; max-width: 400px"  src="../favicon.ico" alt="">
+</div>
+<ul style="margin-top: 30px!important" class="animate">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</div>
+<script type="text/javascript">
+var loader = document.getElementById("loader");
+  window.addEventListener("load",function(){
+    loader.style.height= "100px";
+    loader.style.width= "100px";
+    loader.style.borderRadius= "50%";
+    loader.style.visibility= "hidden";
+  });
+</script>
+    </head>
+    <iframe src="//design-aars.com"></iframe>
+</html>
