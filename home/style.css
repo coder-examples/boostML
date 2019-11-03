@@ -1,5 +1,82 @@
 body {
-	background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c);
+	margin: 0px;
+	padding: 0px;
+	font-family: Poiret One;
+	font-weight: 900;
+}
+
+body > #content-cont-1 {
+	background-image: url(./background.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar {
+	background: transparent;
+	height: 20%;
+	min-height: 50px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.navbar > .links {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.navbar > .link-cont {
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+}
+
+.navbar > .links > .link-cont > li {
+	display: inline-block;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+}
+
+.navbar > .links > .link-cont > li > a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar > .navbar-brand-c {
+	font-size: 30px;
+	text-align: center!important;
+	display: inline-block;
+	width: 100%;
+	color: red;
+	padding: 10px;
+}
+
+.our-team {
+	text-align: center;
+}
+
+.our-team > h1 {
+	color: dodgerblue;
+}
+
+.our-team > .per {
+	display: inline-block;
+	padding: 10px;
+}
+
+.our-team > .per > img {
+	border-radius: 50%;
+}
+
+.our-team > .per > p.name {
+	color: dodgerblue;
+	font-size: 25px;
+}
+
+.our-team > .per > p.post {
+	color: red;
 }
