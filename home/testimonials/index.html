@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Testimonials</title>
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#loader{
+			height: 1500px;
+			width: 1500px;
+			background-color:#000000;
+			position: fixed;
+			top:40%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			z-index:999;
+			transition: all .3s;
+		}    
+		#loader img{
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+		} 
+
+		<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+			;
+		}
+
+		ul.animate {
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: flex
+		}
+
+		ul.animate li {
+			list-style: none;
+			width: 6px;
+			height: 20px;
+			margin: 0px 4px;
+			animation: easy-in-out 0.7s infinite alternate;
+		}
+
+		@keyframes easy-in-out {
+			0% {
+				transform: scaleY(1);
+			}
+			50% {
+				transform: scaleY(2);
+			}
+			100% {
+				transform: scaleY(3);
+			}
+		}
+
+		ul.animate li:nth-child(1) {
+			animation-delay: 0s;
+			background: #E65335;
+		}
+
+		ul.animate li:nth-child(2) {
+			animation-delay: .1s;
+			background: #1A7E91;
+		}
+
+		ul.animate li:nth-child(3) {
+			animation-delay: .2s;
+			background: #E65335;
+		}
+
+		ul.animate li:nth-child(4) {
+			animation-delay: .3s;
+			background: #1A7E91;
+		}
+
+		ul.animate li:nth-child(5) {
+			animation-delay: .4s;
+			background: #E65335;
+		}
+
+		ul.animate li:nth-child(6) {
+			animation-delay: .5s;
+			background: #1A7E91;
+		}
+	</style>
+	<div id="loader">
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+
+		<div style="text-align: center; width: 100%">
+			<img style="display: inline-block; max-height: 200px; max-width: 400px"  src="./favicon.ico" alt="">
+		</div>
+		<ul style="margin-top: 30px!important" class="animate">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- Loader End -->
+
+	<!-- Styles & Scripts -->
+	<link rel="favicon" href="../favicon.ico">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link rel="apple-touch-icon" href="../favicon.ico">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+
+	<script src="../script.js"></script>
+	<link rel="stylesheet" href="../style.css">
+
+	<!-- Close Loader -->
+	<script type="text/javascript">
+		var loader = document.getElementById("loader");
+		window.addEventListener("load",function(){
+			loader.style.height= "100px";
+			loader.style.width= "100px";
+			loader.style.borderRadius= "50%";
+			loader.style.visibility= "hidden";
+		});
+	</script>
+</head>
+<body>
+	<div id="content-cont-1">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="navbar-brand-c">
+				Vision Money Mantra
+			</div>
+			<div class="links">
+				<div class="link-cont">
+					<li><a class="scroll" href="../index.html#content-cont-1">Home</a></li>
+					<li><a class="scroll" href="../index.html#content-cont-2">Our Services</a></li>
+					<li><a class="scroll" href="../index.html#content-cont-3">Contact us</a></li>
+					<li><a class="scroll" href="#content-cont-4">Testimonials</a></li>
+				</div>
+			</div>
+		</nav>
+		<!-- Testimonials Page -->
+		<div id="content-cont-4">
+			<h1>Testimonials</h1>
+			<!-- Testimonials -->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/-F4Dg1sXAtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/46reyZFdjEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/CD__EsIgeHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/YC4esgO-Abk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/-7HzFgmwPmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/oeQQxkSEIu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/xlebveUAASk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/L-KSr5uKoiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h3>For more videos, go to <a target="_blank" href="https://www.youtube.com/channel/UC5dEz_bcPp13ZXtVsRkiXXw"><img src="Youtube-Icon.webp" alt="Youtube Channel" style="height: 40px; width: auto;"></a></h3>
+		</div>
+	</body>
+	</html>
