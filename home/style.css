@@ -176,15 +176,3 @@ input[type=submit]:hover {
   max-width: 500px;
   width: 80%;
 }
-
-#content-cont-4 > iframe {
-	display: inline-block;
-	margin: 20px;
-}
-
-#content-cont-4 {
-	padding: 50px;
-	text-align: center;
-	background: #fcba03;
-	color: red;
-}
