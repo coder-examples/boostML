@@ -109,16 +109,19 @@
 		</ul>
 	</div>
 
-	<link rel="stylesheet" href="style.css">
 	<link rel="favicon" href="./favicon.ico">
-	<script src="https://kit.fontawesome.com/a1e1c7eedb.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/a1e1c7eedb.js" SameSite="None"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
 	<link rel="apple-touch-icon" href="./favicon.ico">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
 
 	<script type="text/javascript">
 		var loader = document.getElementById("loader");
@@ -140,7 +143,7 @@
 				<div class="link-cont">
 					<li><a href="#content-cont-1">Home</a></li>
 					<li><a href="#content-cont-2">Our Services</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="#content-cont-3">Contact us</a></li>
 					<li><a href="#">Testimonials</a></li>
 				</div>
 			</div>
@@ -173,14 +176,14 @@
 				<i class="fas fa-coins fa-5x"></i>
 				<div class="card-body">
 					<h5 class="card-title">Finance</h5>
-					<p class="card-text">We provide financial goal-based planning.</p>
+					<p class="card-text">We provide financial goal-based planning.<br><br></p>
 				</div>
 			</div>
 			<div class="card" style="width: 18rem;">
 				<i class="fas fa-money-bill-wave-alt fa-5x"></i>
 				<div class="card-body">
 					<h5 class="card-title">Taxation</h5>
-					<p class="card-text">We are expert in tax and we also know how to save tax.</p>
+					<p class="card-text">We are expert in tax and we also know how to save tax.<br></p>
 				</div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -205,6 +208,16 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div id="content-cont-3">
+		<h1>Contact Us</h1>
+		<form class="container"  method="POST" action="https://getform.io/f/599604ef-1fe9-4757-9868-08cfc567cfd7">
+			<input type="text" name="name" placeholder="Name *" required>
+			<input type="email" name="email" placeholder="Email">
+			<input type="tel" name="no" placeholder="Phone No. *" required>
+			<textarea name="message" id="message" placeholder="Message *" required></textarea>
+			<input type="submit">
+		</form>
 	</div>
 </body>
 </html>
