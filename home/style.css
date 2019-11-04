@@ -188,7 +188,3 @@ input[type=submit]:hover {
 	background: #fcba03;
 	color: red;
 }
-
-#content-cont-4 > a > img::hover {
-	color: black;
-}
