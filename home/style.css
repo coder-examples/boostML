@@ -46,6 +46,7 @@ body > #content-cont-1 {
 }
 
 .navbar {
+	padding: 0px;
 	background: transparent;
 	height: 20%;
 	min-height: 50px;
@@ -65,6 +66,10 @@ body > #content-cont-1 {
 	width: 100%;
 }
 
+li {
+	font-size: 120%!important;
+}
+
 .navbar > .links > .link-cont > li {
 	display: inline-block;
 	font-size: 25px;
@@ -75,6 +80,10 @@ body > #content-cont-1 {
 .navbar > .links > .link-cont > li > a {
 	text-decoration: none;
 	color: white;
+}
+
+h1 {
+	font-size: 150%!important;
 }
 
 .navbar > .navbar-brand-c {
@@ -179,11 +188,18 @@ input[type=submit]:hover {
 
 #content-cont-4 {
 	text-align: center;
-	padding: 50px;
 	background: #f5f542;
 }
 
 #content-cont-4 > iframe {
 	display: inline-block;
 	margin: 25px;
+}
+
+@media only screen and (min-width: 1070px) {
+	iframe {
+		min-height: 275px!important;
+		width: 475px!important;
+		margin: 25px!important;
+	}
 }
