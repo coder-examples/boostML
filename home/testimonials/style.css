@@ -1,0 +1,202 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 20px;
+}
+
+::selection {
+	background: dodgerblue;
+	color: red;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Poiret One;
+	font-weight: 900;
+	scroll-behavior: smooth;
+}
+
+body > #content-cont-1 {
+	background-image: url(./background.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-height: 716px;
+}
+
+.navbar {
+	padding: 0px;
+	background: transparent;
+	height: 20%;
+	min-height: 50px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.navbar > .links {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.navbar > .link-cont {
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+}
+
+li {
+	font-size: 120%!important;
+}
+
+.navbar > .links > .link-cont > li {
+	display: inline-block;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+}
+
+.navbar > .links > .link-cont > li > a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-size: 150%!important;
+}
+
+.navbar > .navbar-brand-c {
+	font-size: 30px;
+	text-align: center!important;
+	display: inline-block;
+	width: 100%;
+	color: red;
+	padding: 10px;
+}
+
+.our-team {
+	text-align: center;
+}
+
+.our-team > h1 {
+	color: dodgerblue;
+}
+
+.our-team > .per {
+	display: inline-block;
+	padding: 10px;
+}
+
+.our-team > .per > img {
+	border-radius: 50%;
+}
+
+.our-team > .per > p.name {
+	color: dodgerblue;
+	font-size: 25px;
+}
+
+.our-team > .per > p.post {
+	color: red;
+}
+
+#content-cont-2 {
+	background: dimgray;
+	text-align: center;
+	padding: 10px;
+}
+
+#content-cont-2 > h1 {
+	color: dodgerblue;
+}
+
+#content-cont-2 > .cards {
+	width: 80%;
+	display: inline-block;
+}
+
+#content-cont-2 > .cards > .card {
+	display: inline-block;
+	padding: 50px;
+}
+
+#content-cont-3 {
+	text-align: center;
+	background: dodgerblue;
+	padding: 125px 1% 130px 1%;
+	width: 100%
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	text-align: center;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 500px;
+  width: 80%;
+}
+
+#content-cont-4 {
+	text-align: center;
+	padding: 50px;
+	background: #f5f542;
+}
+
+#content-cont-4 > iframe {
+	display: inline-block;
+	margin: 25px;
+}
+
+#content-cont-4 > h2 {
+	width: 140%;
+}
