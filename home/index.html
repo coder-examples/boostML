@@ -113,7 +113,7 @@
 
 	<!-- Styles & Scripts -->
 	<script>
-		if (location.protocol "http:") {
+		if (location.protocol == "http:") {
 			location.protocol = "https:";
 		}
 	</script>
@@ -215,8 +215,9 @@
 	</div>
 	<!-- Contact Us Page -->
 	<div id="content-cont-3">
+		<br><br>
 		<h1>Contact Us</h1>
-		<form class="container"  method="POST" action="https://getform.io/f/599604ef-1fe9-4757-9868-08cfc567cfd7">
+		<form class="container">
 			<input type="text" name="name" placeholder="Name *" required>
 			<input type="email" name="email" placeholder="Email">
 			<input type="tel" name="no" placeholder="Phone No. *" required>
